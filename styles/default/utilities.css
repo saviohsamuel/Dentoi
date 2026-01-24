@@ -1,0 +1,39 @@
+.hidden-d {
+    display: block;
+}
+.hidden-t {
+    display: none;
+}
+.hidden-m {
+    display: block;
+}
+.p-x {
+    padding-inline: 2.5rem;
+}
+.flex {
+    display: flex;
+}
+.f-a-center {
+    align-items: center;
+}
+.f-j-center {
+    justify-content: center;
+}
+/* tablet */
+@media (max-width: 52.125rem) {    
+    .hidden-d {
+        display: none;
+    }
+    .hidden-t {
+        display: block;
+    }
+}
+/* mobile */
+@media (max-width: 26.75rem) {
+    .hidden-m {
+        display: none;
+    }
+    .p-x {
+        padding-inline: 1.25rem;
+    }
+}
