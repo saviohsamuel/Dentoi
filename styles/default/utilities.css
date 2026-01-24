@@ -8,7 +8,11 @@
     display: block;
 }
 .p-x {
-    padding-inline: 2.5rem;
+    padding-inline: 1.25rem;
+}
+.m-auto {
+    max-width: 70rem;
+    margin-inline: auto;
 }
 .flex {
     display: flex;
@@ -32,8 +36,5 @@
 @media (max-width: 26.75rem) {
     .hidden-m {
         display: none;
-    }
-    .p-x {
-        padding-inline: 1.25rem;
     }
 }
