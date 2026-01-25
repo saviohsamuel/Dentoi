@@ -4,10 +4,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <meta charset="UTF-8">
-        <meta name="description" content="Homepage with key information home Dentoi">
+        <meta name="description" content="Homepage contacts Dentoi">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dentoi | Home</title>
-        <link rel="stylesheet" href="styles/styles.css">
+        <title>Dentoi | Contact</title>
+        <link rel="stylesheet" href="/styles/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -15,7 +15,7 @@
             <a href="https://dentoi.vercel.app/index.html" class="logo hidden-d">Dentoi</a>
             <ul class="nav-links flex f-a-center hidden-d">
                 <li>
-                    <a href="https://dentoi.vercel.app/index.html" class="link active">Home</a>
+                    <a href="https://dentoi.vercel.app/index.html" class="link">Home</a>
                 </li>
                 <li>
                     <a href="https://dentoi.vercel.app/pages/about.html" class="link">About</a>
@@ -24,7 +24,7 @@
                     <a href="https://dentoi.vercel.app/pages/services.html" class="link">Services</a>
                 </li>
                 <li>
-                    <a href="https://dentoi.vercel.app/pages/contact.html" class="link">Contact</a>
+                    <a href="https://dentoi.vercel.app/pages/contact.html" class="link active">Contact</a>
                 </li>
                 <li>
                     <a href="https://dentoi.vercel.app/pages/blog.html" class="link">Blogs</a>
@@ -43,7 +43,7 @@
             </div>
             <ul class="menu hidden-t">
                 <li>
-                    <a href="https://dentoi.vercel.app/index.html" class="link active">Home</a>
+                    <a href="https://dentoi.vercel.app/index.html" class="link">Home</a>
                 </li>
                 <li>
                     <a href="https://dentoi.vercel.app/pages/about.html" class="link">About</a>
@@ -52,7 +52,7 @@
                     <a href="https://dentoi.vercel.app/pages/services.html" class="link">Services</a>
                 </li>
                 <li>
-                    <a href="https://dentoi.vercel.app/pages/contact.html" class="link">Contact</a>
+                    <a href="https://dentoi.vercel.app/pages/contact.html" class="link active">Contact</a>
                 </li>
                 <li>
                     <a href="https://dentoi.vercel.app/pages/blog.html" class="link">Blogs</a>
@@ -64,6 +64,47 @@
         </nav>
         <main>
             <section>
+                <div class="container-form flex p-x">
+                    <div class="content-consult">
+                        <p class="tag flex">
+                            <span class="circle"></span>
+                            Speciality
+                        </p>
+                        <h4 class="tform">Book your Appointment Today</h4>
+                        <p>Find our accessible locations, designed to bring quality dental care closer to you.</p>
+                        <ul>
+                            <li class="flex f-a-center">
+                                <div class="circle"></div>
+                                Monday to Saturday
+                            </li>
+                            <li class="flex f-a-center">
+                                <div class="circle"></div>
+                                10 AM to 1PM, 5PM to 9PM
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="" class="flex">
+                        <div class="input-wrapper flex">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Jane Smith" name="Name">
+                        </div>
+                        <div class="input-wrapper flex">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="jane@gmail.com" name="Email">
+                        </div>
+                        <div class="cont-form flex">
+                            <div class="input-wrapper flex">
+                                <label for="phone">Phone</label>
+                                <input id="phone" type="tel" placeholder="(85) 91234-5678" name="Phone">
+                            </div>
+                            <div class="input-wrapper flex">
+                                <label for="date">Date</label>
+                                <input id="date" type="date" placeholder="dd/mm/aaaa" name="Date" lang="pt-br">
+                            </div>
+                        </div>
+                        <button class="btn" type="submit">Book Consultation</button>
+                    </form>
+                </div>
             </section>
         </main>
         <footer>
@@ -134,17 +175,17 @@
                         <ul class="flex">
                             <li>
                                 <a href="#" class="flex f-a-center">
-                                    <img src="assets/icons/whatsapp.svg" alt="icone WhatsApp">
+                                    <img src="/assets/icons/whatsapp.svg" alt="icone WhatsApp">
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex f-a-center">
-                                    <img src="assets/icons/facebook.svg" alt="Icone Facebook">
+                                    <img src="/assets/icons/facebook.svg" alt="Icone Facebook">
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex f-a-center">
-                                    <img src="assets/icons/instagram.svg" alt="Icone Instagram">
+                                    <img src="/assets/icons/instagram.svg" alt="Icone Instagram">
                                 </a>
                             </li>
                         </ul>
@@ -157,6 +198,6 @@
                 <a href="#">Created by Sintaxe Criativa</a>
             </div>
         </footer>
-        <script type="module" src="scripts/main.js"></script>
+        <script type="module" src="/scripts/main.js"></script>
     </body>
 </html>
