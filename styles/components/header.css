@@ -1,0 +1,33 @@
+header {
+    flex-direction: column;
+    text-align: center;
+    h1 {
+        font: var(--f-main-heading);
+        margin-bottom: 1.5rem;
+    }
+    p {
+        color: var(--dark-80);
+        font: var(--f-p18);
+        width: 45rem;
+    }
+}
+/* tablet */
+@media (max-width: 52.125rem) {
+    header {
+        p {
+            width: 33.75rem;
+        }
+    }
+}
+/* mobile */
+@media (max-width: 26.75rem) {
+    header {
+        h1 {
+            font-size: var(--f-s-s-l);
+        }
+        p {
+            font: var(--f-p16-1\4);
+            width: 21.875rem;
+        }
+    }
+}
