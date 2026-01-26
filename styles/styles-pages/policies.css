@@ -16,25 +16,3 @@
         margin-block: 3rem;
     }
 }
-/* tablet */
-@media (max-width: 52.125rem) {
-    #terms {
-        h2 {
-            font-size: 1.5rem;
-        }
-        h3 {
-            font-size: var(--f-s-b-s-h);
-        }
-    }
-}
-/* mobile */
-@media (max-width: 26.75rem) {
-    #terms {
-        h2, h3 {
-            font-size: var(--f-s-p18);
-        }        
-        p {
-            font: var(--f-p16-1\4);
-        }
-    }
-}

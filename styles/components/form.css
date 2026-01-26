@@ -7,9 +7,9 @@
 }
 .content-consult {
     color: var(--dark-90);
-    width: 28.8125rem;
+    width: 32.6875rem;
     p {
-        font: var(--f-p14-medium);
+        font: var(--f-p16-1\6);
     }
     ul {
         margin-top: 2rem;
@@ -64,8 +64,10 @@
     color: var(--dark-100);
     font: var(--f-heading);
     margin-block: 1rem;
+    width: 33.3125rem;
     & + p {
-        width: 25.9375rem;
+        font: var(--f-p16-1\6);
+        width: 32.6875rem;
     }
 }
 form {
@@ -137,6 +139,7 @@ form {
         flex-wrap: nowrap;
     }
     .tform {
+        width: 22rem;
         & + p {
             width: 22rem;
         }
@@ -148,7 +151,7 @@ form {
         flex-direction: column;
     }
     .tform {
-        width: 21.875rem;
+        width: 21.25rem;
     }
     form {
         width: 100%;
