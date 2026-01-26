@@ -15,7 +15,9 @@
     --f-s-m-s-h: 1.375rem;
     --f-s-p14: .875rem;
     --f-s-p16: 1rem;
+    --f-fp16-1\6: 1rem;
     --f-s-p18: 1.125rem;
+    --f-s-p18b: 1.125rem;
     --f-s-s-l: 1.75rem;
     /* font weight */
     --f-w-l: 300;
@@ -35,8 +37,8 @@
     --f-medium-sub-heading: var(--f-w-m) var(--f-s-m-s-h)/var(--l-h-1\4) var(--f-f);
     --f-p14-medium: var(--f-w-m) var(--f-s-p14)/var(--l-h-1\4) var(--f-f);
     --f-p16-1\4: var(--f-w-r) var(--f-s-p16)/var(--l-h-1\4) var(--f-f);
-    --f-p16-1\6: var(--f-w-r) var(--f-s-p16)/var(--l-h-1\6) var(--f-f);
-    --f-p18-bold: var(--f-w-sb) var(--f-s-p18)/var(--l-h-1\2) var(--f-f);
+    --f-p16-1\6: var(--f-w-r) var(--f-fp16-1\6)/var(--l-h-1\6) var(--f-f);
+    --f-p18-bold: var(--f-w-sb) var(--f-s-p18b)/var(--l-h-1\2) var(--f-f);
     --f-p18: var(--f-w-r) var(--f-s-p18)/var(--l-h-1\4) var(--f-f);
     --f-small-label: var(--f-w-sb) var(--f-s-s-l)/var(--l-h-1\2) var(--f-f);
     /* colors */
@@ -96,6 +98,15 @@ a {
 }
 /* tablet */
 @media (max-width: 52.125rem) {
+    :root {
+        --f-s-h: 2.5rem;
+        --f-s-l-l: 3.5rem;
+        --f-s-m-h: 2.5rem;
+        --f-s-m-s-h: 1.25rem;
+        --f-s-p16: .875rem;
+        --f-s-p18b: 1.0625rem;
+        --f-s-s-l: 1.5rem;
+    }
     main {
         &::after {
             right: -10rem;
@@ -105,6 +116,17 @@ a {
 }
 /* mobile */
 @media (max-width: 26.75rem) {
+    :root {
+        --f-fp16-1\6: .875rem;
+        --f-s-h: 1.875rem;
+        --f-s-l-l: 2.25rem;
+        --f-s-m-h: 2rem;
+        --f-s-m-s-h: 1.125rem;
+        --f-s-p16: .875rem;
+        --f-s-p18: 1rem;
+        --f-s-p18b: 1rem;
+        --f-s-s-l: 1.125rem;
+    }
     main {
         &::after {
             height: 18.75rem;
