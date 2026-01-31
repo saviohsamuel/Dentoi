@@ -23,6 +23,9 @@
 .f-j-center {
     justify-content: center;
 }
+.f-r-reverse {
+    flex-direction: row-reverse;
+}
 /* tablet */
 @media (max-width: 52.125rem) {    
     .hidden-d {

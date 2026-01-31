@@ -4,16 +4,20 @@ header {
     h1 {
         font: var(--f-main-heading);
         margin-bottom: 1.5rem;
+        width: 50rem;
     }
     p {
         color: var(--dark-80);
         font: var(--f-p18);
-        width: 45rem;
+        width: 35rem;
     }
 }
 /* tablet */
 @media (max-width: 52.125rem) {
     header {
+        h1 {
+            width: 37.5rem;
+        }
         p {
             width: 33.75rem;
         }
@@ -22,8 +26,11 @@ header {
 /* mobile */
 @media (max-width: 26.75rem) {
     header {        
-        p {
+        h1 {
             width: 21.875rem;
+        }
+        p {
+            width: 100%;
         }
     }
 }
