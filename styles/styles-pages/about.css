@@ -1,0 +1,180 @@
+#about {
+    header {
+        padding-bottom: 4rem;
+    }
+    .subtitle {
+        h2 {
+            font: var(--f-heading);
+            padding-block: 1rem .75rem;
+        }
+    }
+    .container-form {
+        background: var(--white-100);
+        padding: 2.25rem 3rem;
+        form {
+            padding: 0;
+        }
+    }
+}
+#carousel {
+    gap: 2rem;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    img {
+        aspect-ratio: 16 / 9;
+        background-size: cover;
+        border-radius: 1.5rem;
+        border: .375rem solid var(--white-100);
+        box-shadow: 0rem .049rem .049rem -0.0335rem rgba(0, 0, 0, 0.04), 0rem .12rem .12rem -0.067rem rgba(0, 0, 0, 0.04), 0rem .2273rem .2273rem -0.1004rem rgba(0, 0, 0, 0.04), 0rem .3969rem .3969rem -0.1339rem rgba(0, 0, 0, 0.04), 0rem .6907rem .6907rem -0.1674rem rgba(0, 0, 0, 0.04), 0rem 1.2652rem 1.2652rem -0.2009rem rgba(0, 0, 0, 0.03), 0rem 2.5rem 2.5rem -0.2344rem rgba(0, 0, 0, 0.02);
+        height: 21.75rem;
+        object-fit: cover;
+        width: 29.4375rem;
+    }
+}
+.founder {
+    background: var(--white-100);
+    border-radius: 1.5rem;
+    margin-inline: auto;
+    padding: 3rem 2rem 3rem 2rem;
+    width: 48.75rem;
+}
+.founder-foto {
+    justify-content: space-between;
+    h3 {
+        font: var(--f-heading);
+        width: 25.5rem;
+    }
+    img {
+        border-radius: 1.5rem;
+        border: .25rem solid var(--white-100);
+        box-shadow: 0rem .5rem 1.25rem -0.5625rem rgba(0, 0, 0, 0.25);
+        height: 9.25rem;
+        object-fit: cover;
+        transform: rotate(12deg);
+        width: 8.3125rem;
+    }
+}
+.founder-content {
+    margin-block: 3rem;
+    p {
+        color: var(--dark-80);
+        font: var(--f-p18);
+        margin-block: 1.5rem;
+    }
+}
+.container-card {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20.125rem, 1fr));
+}
+.container-team {
+    flex-wrap: wrap;   
+    gap: 2rem;
+    justify-content: space-between;
+    width: 100%;
+}
+#speciality {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.speciality-img {
+    position: relative;
+    width: 31.3125rem;
+    img {
+        border-radius: 1.5rem;
+        border: .3125rem solid var(--white-100);
+        object-fit: cover;
+    }
+    & img:nth-child(1) {
+        height: 26.875rem;
+        width: 86%;
+    }
+    & img:nth-child(2) {
+        aspect-ratio: 1 / 1;
+        bottom: -5rem;
+        height: 11.25rem;
+        position: absolute;
+        right: 0rem;
+        width: 36%;
+    }
+}
+/* tablet */
+@media (max-width: 52.125rem) {
+    #about {
+        .container-form {
+            flex-direction: column;
+            margin-block: 5rem;
+            form {
+                margin-top: 3rem;
+                width: 100%;
+            }
+        }
+        .content-consult .tform {
+            width: 26.25rem;
+        }
+    }
+    .founder {
+        width: 45.625rem;
+    }
+    .container-team {
+        gap: 3rem;
+        justify-content: center;
+    }
+    .speciality-img {
+        width: 45.625rem;
+        & img:nth-child(1) {
+            height: 39.1875rem;
+        }
+        & img:nth-child(2) {
+            height: 16.4375rem;
+        }
+    }
+}
+/* mobile */
+@media (max-width: 26.75rem) {
+    #about {
+        .container-form {
+            .tform {
+                width: 19.375rem;
+            }
+        }
+    }
+    #carousel {
+        img {
+            width: 100%;
+            height: 16.75rem;
+        }
+    }
+    .founder {
+        padding-inline: 1.25rem;
+        width: 100%;
+    }
+    .founder-foto {
+        align-items: start;
+        flex-direction: column;
+        gap: .75rem;
+        h3 {
+            width: 17.375rem;
+        }
+    }
+    #speciality ul li {
+        width: 20rem;
+    }
+    .speciality-img {
+        width: 100%;
+        & img:nth-child(1) {
+            height: 18.8125rem;
+        }
+        & img:nth-child(2) {
+            bottom: -3.125rem;
+            height: 7.8125rem;
+        }
+    }
+    #about {
+        .container-form {
+            padding: 2.25rem 1.25rem;
+        }
+    }
+}

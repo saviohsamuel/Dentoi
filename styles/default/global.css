@@ -90,6 +90,7 @@ main {
 section {
     max-width: 70rem;
     margin-inline: auto;
+    padding-block: 3.75rem;
 }
 a {
     color: var(--dark-100);

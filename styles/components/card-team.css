@@ -1,0 +1,39 @@
+.card-team {
+    width: 16rem;    
+    img {
+        border-radius: 1.5rem;
+        border: .25rem solid var(--white-100);
+        box-sizing: border-box;
+        height: 18.0625rem;
+        object-fit: cover;
+        width: 100%;
+    }
+    figcaption {
+        margin-top: .75rem;
+        padding: .75rem;
+        & p:nth-child(1) {
+            font: var(--f-bold-sub-heading);
+        }
+        & p:nth-child(2) {
+            color: var(--dark-90);
+            font: var(--f-p16-1\4);
+            margin-top: .5rem;
+        }
+    }
+}
+/* tablet */
+@media (max-width: 52.125rem) {
+    .card-team {
+        width: 21.25rem;
+    }
+}
+/* mobile */
+@media (max-width: 26.75rem) {
+    .card-team {
+        width: 100%;
+        img {
+            aspect-ratio: 1 / 1;
+            height: 25rem;
+        }     
+    }
+}
