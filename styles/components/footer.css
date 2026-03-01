@@ -83,7 +83,7 @@ li:has(.link-hover:hover) .circle {
     li a {
         background: var(--white-100);
         border-radius: .8125rem;        
-        border: .125rem solid var(--white-60);
+        border-color: var(--white-60);
         padding: .625rem;
         transition: all .2s ease-in-out;
         img {

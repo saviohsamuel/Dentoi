@@ -26,6 +26,18 @@
 .f-r-reverse {
     flex-direction: row-reverse;
 }
+.b-radius24 {
+    border-radius: 1.5rem;
+}
+.b-width1 {
+    border: .0625rem solid transparent;
+}
+.b-width5 {
+    border: .3125rem solid transparent;
+}
+.img-fit {
+    object-fit: cover;
+}
 /* tablet */
 @media (max-width: 52.125rem) {    
     .hidden-d {

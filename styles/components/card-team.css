@@ -1,11 +1,9 @@
 .card-team {
     width: 16rem;    
     img {
-        border-radius: 1.5rem;
-        border: .25rem solid var(--white-100);
+        border-color: var(--white-100);
         box-sizing: border-box;
         height: 18.0625rem;
-        object-fit: cover;
         width: 100%;
     }
     figcaption {

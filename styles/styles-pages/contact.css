@@ -42,9 +42,7 @@
     overflow: hidden;
     width: 32.1875rem;    
     img {       
-        object-fit: cover; 
-        border-radius: 1.5rem;
-        border: .25rem solid var(--white-100);
+        border-color: var(--white-100);
         height: inherit;
         width: inherit;
     }

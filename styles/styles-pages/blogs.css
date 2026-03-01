@@ -7,14 +7,11 @@
 }
 .blog-img {
     background: var(--light-blue);
-    border-radius: 1.5rem;
     overflow: hidden;
     padding: .3125rem;
 }
 .blog-img img {
     aspect-ratio: 1 / 1;
-    border-radius: inherit;
-    object-fit: cover;
     transition: transform 0.4s ease;
     width: 100%;
 }

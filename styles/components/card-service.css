@@ -1,13 +1,12 @@
 .card-service {
     background: var(--white-100);
-    border-radius: 1.5rem;
     box-sizing: border-box;
     height: 17.5625rem;
     padding: 2rem;
     width: 22rem;
     img {
         border-radius: inherit;
-        border: .25rem solid var(--white-90);
+        border-color: (--white-90);
         height: 5rem;
         width: 5rem;
     }

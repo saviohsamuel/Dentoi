@@ -11,8 +11,7 @@
 }
 .local {
     aspect-ratio: 1 / 1;  
-    border-radius: 1.5rem;
-    border: .3125rem solid var(--white-100);           
+    border-color: var(--white-100);           
     box-shadow:
         0rem .049rem .049rem -0.0335rem rgba(0, 0, 0, 0.04),
         0rem .12rem .12rem -0.067rem rgba(0, 0, 0, 0.04),
@@ -23,14 +22,13 @@
         0rem 2.5rem 2.5rem -0.2344rem rgba(0, 0, 0, 0.02)
     ;
     height: auto;
-    object-fit: cover;  
     width: clamp(16rem, 40vw, 27.9375rem);
 }
 .services-description {
     img {
         background: var(--white-100);
         border-radius:  1.25rem;
-        border: .125rem solid var(--white-90);
+        border-color: var(--white-90);
         height: 6rem;        
         width: 6rem;
     }
@@ -46,7 +44,6 @@
 }
 .container-numbers {
     background: var(--white-100);
-    border-radius: 1.5rem;
     justify-content: space-between;
     margin-block: 10rem;
     padding: 1.5rem;

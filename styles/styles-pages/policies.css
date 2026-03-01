@@ -1,7 +1,7 @@
 #terms {
     background: var(--white-100);
     border-radius: 1.125rem;
-    border: .1875rem solid var(--white-60);    
+    border-color: var(--white-60);    
     margin-block: 5.375rem;
     padding: 1rem;
     h2 {

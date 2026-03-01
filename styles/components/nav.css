@@ -1,6 +1,5 @@
 #nav-main {    
     background: var(--white-100);
-    border-radius: 1.5rem;    
     box-shadow: 0rem .3125rem .8125rem 0rem rgba(0, 0, 0, 0.256);
     justify-content: space-between;
     left: 1rem;
@@ -80,7 +79,7 @@
     .icon {
         background: var(--white-100);
         border-radius: .5rem;
-        border: .0625rem solid var(--white-95);
+        border-color: var(--white-95);
         cursor: pointer;            
         height: 2rem;
         stroke-width: 10;
