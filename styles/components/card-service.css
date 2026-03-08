@@ -1,12 +1,15 @@
+.container-card {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .card-service {
     background: var(--white-100);
     box-sizing: border-box;
-    height: 17.5625rem;
     padding: 2rem;
-    width: 22rem;
     img {
         border-radius: inherit;
-        border-color: (--white-90);
+        border-color: var(--white-90);
         height: 5rem;
         width: 5rem;
     }
@@ -20,9 +23,15 @@
         font: var(--f-p16-1\4);
     }
 }
+/* tablet */
+@media (max-width: 52.125rem) {
+    .container-card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
 /* mobile */
 @media (max-width: 26.75rem) {
-    .card-service {
-        width: 100%;
+    .container-card {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }

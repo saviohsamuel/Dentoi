@@ -3,34 +3,18 @@ header {
     text-align: center;
     h1 {
         font: var(--f-main-heading);
-        margin-bottom: 1.5rem;
-        width: 50rem;
+        margin-bottom: 1.5rem;        
     }
     p {
         color: var(--dark-80);
         font: var(--f-p18);
-        width: 35rem;
     }
-}
-/* tablet */
-@media (max-width: 52.125rem) {
-    header {
-        h1 {
+    &.subtitle {
+        margin-block: 5rem 4rem;
+        h2 {
+            font: var(--f-heading);
+            padding-block: 1rem .75rem;
             width: 37.5rem;
-        }
-        p {
-            width: 33.75rem;
-        }
-    }
-}
-/* mobile */
-@media (max-width: 26.75rem) {
-    header {        
-        h1 {
-            width: 21.875rem;
-        }
-        p {
-            width: 100%;
         }
     }
 }

@@ -1,5 +1,10 @@
+.container-team {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 .card-team {
-    width: 16rem;    
+    width: 100%;    
     img {
         border-color: var(--white-100);
         box-sizing: border-box;
@@ -21,17 +26,20 @@
 }
 /* tablet */
 @media (max-width: 52.125rem) {
-    .card-team {
-        width: 21.25rem;
+    .container-team {
+        gap: 3rem;        
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 /* mobile */
 @media (max-width: 26.75rem) {
-    .card-team {
-        width: 100%;
+    .container-team {     
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .card-team {        
         img {
             aspect-ratio: 1 / 1;
-            height: 25rem;
+            height: 22rem;
         }     
     }
 }
