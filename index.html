@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav role="navigation" id="nav-main" class="flex f-a-center">
+        <nav role="navigation" id="nav-main" class="flex f-a-center b-radius24">
             <a href="https://dentoi.vercel.app/index.html" class="logo hidden-d">Dentoi</a>
             <ul class="nav-links flex f-a-center hidden-d">
                 <li>
@@ -62,8 +62,364 @@
                 </li>
             </ul>
         </nav>
-        <main>
-            <section>
+        <main id="home" class="p-x">
+            <section id="banner" class="flex f-a-center">
+                <div class="banner-content">
+                    <div class="banner-persons flex f-a-center">
+                        <div class="persons-imgs">
+                            <img src="assets/imgs/home/person1.avif" alt="Foto perfil de pessoas que avaliaram a clínica" loading="lazy" class="b-width1 img-fit">
+                            <img src="assets/imgs/home/person2.avif" alt="Foto perfil de pessoas que avaliaram a clínica" loading="lazy" class="b-width1 img-fit">
+                            <img src="assets/imgs/home/person3.avif" alt="Foto perfil de pessoas que avaliaram a clínica" loading="lazy" class="b-width1 img-fit">
+                        </div>
+                        <p>1500+ Trusted Patients</p>
+                    </div>
+                    <h1>Creating Brighter Smiles for a Better Tomorrow</h1>
+                    <p>Experience exceptional dental care for a healthier, brighter smile you’ll love to show off!</p>
+                    <a href="https://dentoi.vercel.app/pages/contact.html" class="btn">Book Consultation</a>
+                </div>
+                <div class="banner-img">
+                    <figure class="flex f-a-center b-width1">
+                        <img src="assets/icons/services/service1.svg" alt="Icone de dente" loading="lazy" class="b-radius24 b-width1">
+                        <figcaption>Happy teeth</figcaption>
+                    </figure>
+                    <div class="banner-img-principal">
+                        <img src="assets/imgs/home/banner.avif" alt="Foto de mulher indicando a clínica" loading="lazy">
+                    </div>
+                    <figure class="flex f-a-center b-width1">
+                        <img src="assets/icons/services/service4.svg" alt="Icone de lupa" loading="lazy" class="b-radius24 b-width1">
+                        <figcaption>Fit and Fine</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="rating">
+                <div class="rating flex f-a-center b-radius24">  
+                    <figure class="flex f-a-center">
+                        <img src="assets/icons/review.svg" alt="Icone" loading="lazy">
+                        <figcaption>2000+ Reviews</figcaption>
+                    </figure>
+                    <div class="divisor"></div>
+                    <figure class="flex f-a-center">
+                        <img src="assets/icons/rating.svg" alt="Icone" loading="lazy">
+                        <figcaption>4.5+ Rating</figcaption>
+                    </figure>
+                    <div class="divisor"></div>
+                    <figure class="flex f-a-center">
+                        <img src="assets/icons/mdco.svg" alt="Icone" loading="lazy">
+                        <figcaption>MDCO Verified</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="service">
+                <header class="subtitle flex f-a-center">
+                    <p class="tag flex">
+                        <span class="circle"></span>
+                        Services
+                    </p>
+                    <h2>Your Dental Care Solutions</h2>
+                    <p>Comprehensive dental care tailored to keep your smile healthy and bright.</p>
+                </header>
+                <div class="container-card">
+                    <div class="card-service b-radius24">
+                        <img src="assets/icons/services/service1.svg" alt="Icone service" loading="lazy" class="b-width5">
+                        <p class="card-service-t">General Dentistry</p>
+                        <p>Regular check-ups and professional cleanings to maintain your oral health and prevent future issues.</p>
+                    </div>
+                    <div class="card-service b-radius24">
+                        <img src="assets/icons/services/service2.svg" alt="Icone service" loading="lazy" class="b-width5">
+                        <p class="card-service-t">Dental Implants</p>
+                        <p>Replace missing teeth with durable, natural-looking implants for a complete smile.</p>
+                    </div>
+                    <div class="card-service b-radius24">
+                        <img src="assets/icons/services/service3.svg" alt="Icone service" loading="lazy" class="b-width5">
+                        <p class="card-service-t">Pediatric Dentistry</p>
+                        <p>Friendly, gentle dental care to ensure your child’s visits are comfortable, enjoyable, and completely stress-free.</p>
+                    </div>
+                    <div class="card-service b-radius24">
+                        <img src="assets/icons/services/service4.svg" alt="Icone service" loading="lazy" class="b-width5">
+                        <p class="card-service-t">Orthodontics</p>
+                        <p>Straighten your teeth and align your bite. Services include traditional braces, clear aligners, and retainers.</p>
+                    </div>
+                    <div class="card-service b-radius24">
+                        <img src="assets/icons/services/service5.svg" alt="Icone service" loading="lazy" class="b-width5">
+                        <p class="card-service-t">Cosmetic Dentistry</p>
+                        <p>Enhance the appearance of your smile with treatments tailored to boost your confidence impression.</p>
+                    </div>
+                    <div class="card-service b-radius24">
+                        <img src="assets/icons/services/service6.svg" alt="Icone service" loading="lazy" class="b-width5">
+                        <p class="card-service-t">Emergency Care</p>
+                        <p>Immediate relief for unexpected dental problems like toothaches, broken teeth, or injuries.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="speciality" class="flex">
+                <div class="content-consult">
+                    <p class="tag flex">
+                        <span class="circle"></span>
+                        Speciality
+                    </p>
+                    <h2 class="tform">Our Speciality: Smile Transformations</h2>
+                    <ul>
+                        <li class="flex f-a-center">
+                            <div class="circle"></div>
+                            Tailored treatments to enhance your unique smile.
+                        </li>
+                        <li class="flex f-a-center">
+                            <div class="circle"></div>
+                            State-of-the-art tools for precise and effective results.
+                        </li>
+                        <li class="flex f-a-center">
+                            <div class="circle"></div>
+                            Combining cosmetic, orthodontic, and restorative procedures.
+                        </li>
+                        <li class="flex f-a-center">
+                            <div class="circle"></div>
+                            Durable solutions for a beautiful smile that stands the test of time.
+                        </li>
+                    </ul>
+                    <a href="#" class="btn">Know more</a>
+                </div>
+                <div class="speciality-img">
+                    <img src="assets/imgs/about/speciality1.avif" alt="Foto do dentista realizando procedimento" loading="lazy" class="b-radius24 b-width5 img-fit">
+                    <img src="assets/imgs/about/speciality2.avif" alt="Foto de protese dentaria" loading="lazy" class="b-radius24 b-width5 img-fit">
+                </div>
+            </section>
+            <section id="team">
+                <header class="subtitle flex f-a-center">
+                    <p class="tag flex">
+                        <span class="circle"></span>
+                        Team
+                    </p>
+                    <h2>Meet Our Expert Team</h2>
+                    <p>Experienced dental professionals dedicated to your oral health and comfort.</p>
+                </header>
+                <div class="container-team">
+                    <figure class="card-team">
+                        <img src="assets/imgs/about/team1.avif" alt="Foto do dentista" loading="lazy" class="b-radius24 b-width5 img-fit">
+                        <figcaption>
+                            <p>Alina Khan</p>
+                            <p><span>Chief Dentist | 10+ years</span></p>
+                        </figcaption>
+                    </figure>
+                    <figure class="card-team">
+                        <img src="assets/imgs/about/team2.avif" alt="Foto do dentista" loading="lazy" class="b-radius24 b-width5 img-fit">
+                        <figcaption>
+                            <p>Jonny Robert</p>
+                            <p><span>Orthodontist Specialist</span></p>
+                        </figcaption>
+                    </figure>
+                    <figure class="card-team">
+                        <img src="assets/imgs/about/team3.avif" alt="Foto do dentista" loading="lazy" class="b-radius24 b-width5 img-fit">
+                        <figcaption>
+                            <p>Alberto Cabben</p>
+                            <p><span>Pediatric Dentist</span></p>
+                        </figcaption>
+                    </figure>
+                    <figure class="card-team">
+                        <img src="assets/imgs/about/team4.avif" alt="Foto do dentista" loading="lazy" class="b-radius24 b-width5 img-fit">
+                        <figcaption>
+                            <p>Julia Matics</p>
+                            <p><span>Implant Specialist</span></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="testimonial">
+                <header class="subtitle flex f-a-center">
+                    <p class="tag flex">
+                        <span class="circle"></span>
+                        Testimonials
+                    </p>
+                    <h2>Our Patient Share Their Stories</h2>
+                    <p>Real experiences from our happy patients who trust us with their smiles.</p>
+                </header>
+                <div class="testimonial-container flex">
+                    <div class="testimonial-card b-radius24">
+                        <div class="testimonial-img flex">
+                            <figure class="user">
+                                <img src="assets/imgs/home/testimonial1.avif" alt="Foto perfil usuário" loading="lazy">
+                                <figcaption>
+                                    <p>Emily T.</p>
+                                    <span>Engineer</span>
+                                </figcaption>
+                            </figure>
+                            <img src="assets/imgs/home/testimonial-icon.avif" alt="Icone de aspas" loading="lazy" class="img-fit">
+                        </div>
+                        <p>I can’t thank Dr. Jonny enough for my new smile! The attention to detail and personalized care made my experience wonderful. I highly recommend their services.</p>
+                    </div>
+                    <div class="testimonial-card b-radius24">
+                        <div class="testimonial-img flex">
+                            <figure class="user">
+                                <img src="assets/imgs/home/testimonial2.avif" alt="Foto perfil usuário" loading="lazy">
+                                <figcaption>
+                                    <p>Michael R.</p>
+                                    <span>Trucker</span>
+                                </figcaption>
+                            </figure>
+                            <img src="assets/imgs/home/testimonial-icon.avif" alt="Icone de aspas" loading="lazy" class="img-fit">
+                        </div>
+                        <p>After years of avoiding the dentist, Dr. Mehta helped me achieve a comfortable and pain-free experience. I’m so glad I finally took the plunge and received the care I needed!</p>
+                    </div>
+                    <div class="testimonial-card b-radius24">
+                        <div class="testimonial-img flex">
+                            <figure class="user">
+                                <img src="assets/imgs/home/testimonial3.avif" alt="Foto perfil usuário" loading="lazy">
+                                <figcaption>
+                                    <p>Salin K.</p>
+                                    <span>Singer</span>
+                                </figcaption>
+                            </figure>
+                            <img src="assets/imgs/home/testimonial-icon.avif" alt="Icone de aspas" loading="lazy" class="img-fit">
+                        </div>
+                        <p>Dr. Alberto made my child’s first dental visit easy and fun. They loved the friendly environment and the staff’s patience, kindness, and care. Truly a great experience for our little one!</p>
+                    </div>
+                    <div class="testimonial-card b-radius24">
+                        <div class="testimonial-img flex">
+                            <figure class="user">
+                                <img src="assets/imgs/home/testimonial4.avif" alt="Foto perfil usuário" loading="lazy">
+                                <figcaption>
+                                    <p>Sarah L.</p>
+                                    <span>Model</span>
+                                </figcaption>
+                            </figure>
+                            <img src="assets/imgs/home/testimonial-icon.avif" alt="Icone de aspas" loading="lazy" class="img-fit">
+                        </div>
+                        <p>The team at this clinic is top-notch. They’ve been able to restore my teeth with such precision, care, and attention to detail; I couldn’t be happier with the results and the overall experience!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="since">
+                <header class="subtitle flex f-a-center">
+                    <p class="tag flex">
+                        <span class="circle"></span>
+                        Since
+                    </p>
+                    <h2>Developing our reputation since 2017</h2>
+                    <p>Delivering trusted, quality dental care with a reputation for excellence since 2017.</p>
+                </header>
+                <div class="since-more flex">
+                    <div class="speciality-img">
+                        <img src="assets/imgs/about/caroulse4.avif" alt="Foto do dentista realizando procedimento" loading="lazy" class="b-radius24 b-width5 img-fit">
+                        <img src="assets/imgs/about/speciality2.avif" alt="Foto de protese dentaria" loading="lazy" class="b-radius24 b-width5 img-fit">
+                    </div>
+                    <div class="since-content">
+                        <figure class="card-reputation">
+                            <img src="assets/icons/services/service1.svg" alt="Icone de dente" loading="lazy" class="b-radius24 b-width1">
+                            <figcaption>
+                                <p class="card-reputation-t">Trusted by Thousands</p>
+                                <span>Over 10,000 satisfied patients who have experienced quality care.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-reputation">
+                            <img src="assets/icons/services/service1.svg" alt="Icone de dente" loading="lazy" class="b-radius24 b-width1">
+                            <figcaption>
+                                <p class="card-reputation-t">Award-Winning Service</p>
+                                <span>Recognized for excellence in dentistry with multiple awards.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-reputation">
+                            <img src="assets/icons/services/service1.svg" alt="Icone de dente" loading="lazy" class="b-radius24 b-width1">
+                            <figcaption>
+                                <p class="card-reputation-t">Innovative Techniques</p>
+                                <span>Pioneering new dental solutions and technology.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-reputation">
+                            <img src="assets/icons/services/service1.svg" alt="Icone de dente" loading="lazy" class="b-radius24 b-width1">
+                            <figcaption>
+                                <p class="card-reputation-t">Community-Focused</p>
+                                <span>Proudly serving our local community with a commitment.</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>            
+            <section id="blogs">
+                <header class="subtitle flex f-a-center">
+                    <p class="tag flex">
+                        <span class="circle"></span>
+                        Blogs
+                    </p>
+                    <h2>Our Blog Post</h2>
+                    <p>Insights, tips, and updates to keep you informed about your dental health journey.</p>
+                </header>
+                <div class="container-blogs">
+                    <a href="#">
+                        <figure class="card-blog">
+                            <div class="blog-img flex f-a-center f-j-center b-radius24">
+                                <img src="/assets/imgs/blogs/blog1.avif" alt="Imagem do blog" loading="lazy" class="b-radius24 img-fit">
+                            </div>                      
+                            <figcaption class="blog-desc">
+                                <p>Your Trusted Partner in Your Trusted Partner in Your Trusted Partner in.</p>
+                                <span>Mar 9, 2024</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <figure class="card-blog">
+                            <div class="blog-img flex f-a-center f-j-center b-radius24">
+                                <img src="/assets/imgs/blogs/blog2.avif" alt="Imagem do blog" loading="lazy" class="b-radius24 img-fit">
+                            </div>                      
+                            <figcaption class="blog-desc">
+                                <p>Your Trusted Partner in Your Trusted Partner in Your Trusted Partner in.</p>
+                                <span>Mar 9, 2024</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <figure class="card-blog">
+                            <div class="blog-img flex f-a-center f-j-center b-radius24">
+                                <img src="/assets/imgs/blogs/blog3.avif" alt="Imagem do blog" loading="lazy" class="b-radius24 img-fit">
+                            </div>                      
+                            <figcaption class="blog-desc">
+                                <p>Your Trusted Partner in Your Trusted Partner in Your Trusted Partner in.</p>
+                                <span>Mar 9, 2024</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </section>
+            <section id="form">
+                <div class="container-form flex b-radius24">
+                    <div class="content-consult">
+                        <p class="tag flex b-width1">
+                            <span class="circle"></span>
+                            Contact
+                        </p>
+                        <h4 class="tform">Book your Appointment Today</h4>
+                        <p>Find our accessible locations, designed to bring quality dental care closer to you.</p>
+                        <ul>
+                            <li class="flex f-a-center">
+                                <div class="circle"></div>
+                                Monday to Saturday
+                            </li>
+                            <li class="flex f-a-center">
+                                <div class="circle"></div>
+                                10 AM to 1PM, 5PM to 9PM
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="" class="flex b-radius24">
+                        <div class="input-wrapper flex">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Jane Smith" name="Name" class="b-width1">
+                        </div>
+                        <div class="input-wrapper flex">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="jane@gmail.com" name="Email" class="b-width1">
+                        </div>
+                        <div class="cont-form flex">
+                            <div class="input-wrapper flex">
+                                <label for="phone">Phone</label>
+                                <input id="phone" type="tel" placeholder="(85) 91234-5678" name="Phone" class="b-width1">
+                            </div>
+                            <div class="input-wrapper flex">
+                                <label for="date">Date</label>
+                                <input id="date" type="date" placeholder="dd/mm/aaaa" name="Date" lang="pt-br" class="b-width1">
+                            </div>
+                        </div>
+                        <button class="btn" type="submit">Book Consultation</button>
+                    </form>
+                </div>                
             </section>
         </main>
         <footer>
