@@ -74,6 +74,9 @@ main {
     overflow: hidden;
     padding-top: 9.75rem;
     position: relative;
+    header h1 {
+        width: 46.875rem;
+    }
     &::after {
         background: var(--crayola);
         border-radius: 50%;
@@ -129,6 +132,14 @@ a {
         --f-s-s-l: 1.125rem;
     }
     main {
+        & header {
+            h1 {
+                width: 21.875rem;
+            }
+            &.subtitle h2 {
+                width: 21.875rem;
+            }
+        }
         &::after {
             height: 18.75rem;
             right: -16rem;

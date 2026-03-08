@@ -1,19 +1,8 @@
-#about {
-    header {
-        padding-bottom: 4rem;
-    }
-    .subtitle {
-        h2 {
-            font: var(--f-heading);
-            padding-block: 1rem .75rem;
-        }
-    }
-    .container-form {
-        background: var(--white-100);
-        padding: 2.25rem 3rem;
-        form {
-            padding: 0;
-        }
+#speciality {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .content-consult .tform {
+        width: 100%;
     }
 }
 #carousel {
@@ -59,25 +48,12 @@
         margin-block: 1.5rem;
     }
 }
-.container-card {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(20.125rem, 1fr));
-}
-.container-team {
-    flex-wrap: wrap;   
-    gap: 2rem;
-    justify-content: space-between;
-    width: 100%;
-}
-#speciality {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .speciality-img {
+    height: 31.3125rem;
     position: relative;
     width: 31.3125rem;
     img {
+        position: absolute;
         border-color: var(--white-100);
     }
     & img:nth-child(1) {
@@ -86,28 +62,14 @@
     }
     & img:nth-child(2) {
         aspect-ratio: 1 / 1;
-        bottom: -5rem;
+        bottom: 0;
         height: 11.25rem;
-        position: absolute;
         right: 0rem;
         width: 36%;
     }
 }
 /* tablet */
 @media (max-width: 52.125rem) {
-    #about {
-        .container-form {
-            flex-direction: column;
-            margin-block: 5rem;
-            form {
-                margin-top: 3rem;
-                width: 100%;
-            }
-        }
-        .content-consult .tform {
-            width: 26.25rem;
-        }
-    }
     .founder {
         width: 45.625rem;
     }
@@ -116,7 +78,8 @@
         justify-content: center;
     }
     .speciality-img {
-        width: 45.625rem;
+        width: 100%;
+        height: 45.6875rem;
         & img:nth-child(1) {
             height: 39.1875rem;
         }
@@ -127,13 +90,6 @@
 }
 /* mobile */
 @media (max-width: 26.75rem) {
-    #about {
-        .container-form {
-            .tform {
-                width: 19.375rem;
-            }
-        }
-    }
     #carousel {
         img {
             width: 100%;
@@ -153,21 +109,17 @@
         }
     }
     #speciality ul li {
-        width: 20rem;
+        width: 100%;
     }
     .speciality-img {
+        height: 21.875rem;
         width: 100%;
         & img:nth-child(1) {
             height: 18.8125rem;
         }
         & img:nth-child(2) {
-            bottom: -3.125rem;
+            
             height: 7.8125rem;
-        }
-    }
-    #about {
-        .container-form {
-            padding: 2.25rem 1.25rem;
         }
     }
 }

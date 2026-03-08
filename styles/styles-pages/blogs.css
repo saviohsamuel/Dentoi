@@ -2,7 +2,7 @@
     display: grid;
     flex: 1 0 0rem;
     gap: 2rem;
-    grid-template-columns: repeat(3, minmax(22rem, 1fr));    
+    grid-template-columns: repeat(3, minmax(0, 1fr));    
     margin-block: 7.5rem 5rem;
 }
 .blog-img {
@@ -31,13 +31,13 @@
 /* tablet */
 @media (max-width: 52.125rem) {
     .container-blogs {
-        grid-template-columns: repeat(2, minmax(22rem, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 /* mobile */
 @media (max-width: 26.75rem) {
     .container-blogs {
-        grid-template-columns: repeat(1, minmax(22rem, 1fr));
+        grid-template-columns: repeat(1, minmax(0, 1fr));
         margin-block: 5.625rem 3.75rem;
     }
 }

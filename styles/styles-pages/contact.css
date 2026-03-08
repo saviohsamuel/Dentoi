@@ -1,4 +1,11 @@
-#contact {
+#contact #form .container-form {
+    padding: 0;
+    background: none;
+    form {
+        padding: 1.25rem;
+    }
+}
+#contacts {
     header {
         margin-block: 5rem 3.75rem;
         .tag {
