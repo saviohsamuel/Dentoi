@@ -6,7 +6,10 @@
 .card-service {
     background: var(--white-100);
     box-sizing: border-box;
+    opacity: 0;
     padding: 2rem;
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
     img {
         border-radius: inherit;
         border-color: var(--white-90);
@@ -22,6 +25,10 @@
         color: var(--dark-90);
         font: var(--f-p16-1\4);
     }
+}
+.card-service.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 /* tablet */
 @media (max-width: 52.125rem) {

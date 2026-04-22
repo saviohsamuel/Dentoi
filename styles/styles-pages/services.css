@@ -63,6 +63,7 @@
         font: var(--f-small-label);
     }
 }
+
 /* tablet */
 @media (max-width: 52.125rem) {
     .container-services {

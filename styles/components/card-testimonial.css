@@ -18,10 +18,17 @@
     background: var(--white-100);
     width: 15.75rem;
     padding: 1rem;    
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
     p {
         color: var(--dark-90);
         font: var(--f-p16-1\4);
     }
+}
+.testimonial-card.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 .testimonial-img {
     justify-content: space-between;

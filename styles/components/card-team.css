@@ -4,7 +4,10 @@
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .card-team {
-    width: 100%;    
+    width: 100%;  
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;  
     img {
         border-color: var(--white-100);
         box-sizing: border-box;
@@ -23,6 +26,10 @@
             margin-top: .5rem;
         }
     }
+}
+.card-team.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 /* tablet */
 @media (max-width: 52.125rem) {
